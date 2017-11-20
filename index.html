@@ -5,8 +5,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 
@@ -21,10 +19,10 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-          <li><a href="#classes" class="button big scrolly">Classes</a></li>
-          <li><a href="#about" class="button big scrolly">About Sameer Kausar</a></li>
-          <li><a href="#testimonial" class="button big scrolly">Testimonials</a></li>
-					<li><a href="#performances" class="button big scrolly">Performances</a></li>
+          <li><a href="#classes" class="scrolly">Classes</a></li>
+          <li><a href="#about" class="scrolly">About Sameer Kausar</a></li>
+          <li><a href="#testimonial" class="scrolly">Testimonials</a></li>
+					<li><a href="#performances" class="scrolly">Performances</a></li>
 				</ul>
 			</nav>
 
@@ -56,28 +54,7 @@
 										<h3>Classes</h3>
 										<p>SKStudios helps you discover your Nakhra. Whether it is your first time dancing or you’ve danced for years, everyone has their own Nakhra. Our classes are designed for students ages 12-18 with no prior dance experience.</p>
 										<p>We offer a 6 week class, with classes meeting once a week. At the end of the class, we have a public performance.</p>
-                    <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
-                    <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
-                      <div class="modal-dialog">
-
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Modal Header</h4>
-                          </div>
-                          <div class="modal-body">
-                            <p>Some text in the modal.</p>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoRsJuXTnIKFdUnNDPyADGgusorIrGSWLE0mfbMrZqzBC1hg/viewform?usp=sf_link" class="button">Sign Up</a>
                     <a href="#testimonial" class="button scrolly">Testimonials</a>
 									</div>
 								</div>
@@ -89,7 +66,7 @@
 						<div id="about" class="inner">
 							<div class="flex flex-2">
 								<div class="col col2">
-									<h3>About Sameeer Kausar</h3>
+									<h3>About Sameer Kausar</h3>
 									<p>Sameer started his dancing career his junior year of high school with Lynbrook Bhangra. Once he graduated and went to UCSD for undergrad, he joined the nationally ranked team, Da Real Punjabiz. When he joined the team in his second year of college, he could barely dance on count. With hard work and determination, Sameer turned into one of the most dominating dancers on the team. He led the way to multiple placings at competitions with the most notable being their first place performance at Bruin Bhangra 2016.</p>
 									<p>Now graduated, Sameer has moved back up to the bay and currently dances with Bhangra Empire. He has performed at the halftime show at a Warriors game and helped create choreography videos that have millions of views. With Bhangra Empire, he taught adults at both the intermediate and advanced levels.</p>
 									<a href="#performances" class="button scrolly">Performances</a>
@@ -109,14 +86,14 @@
 							<!-- 2 Columns -->
 								<div class="flex flex-2">
 									<div class="col col1">
-										<div class="image round fit">
-											<a><img src="images/students.jpg" alt="" /></a>
-                    </div>
+                    <h3>Testimonials</h3>
                     <p>"I’ve really enjoyed Sameer’s bhangra class, he is a great communicator and a dance star! Sameer teaches the choreography efficiently while still keeping the mood light and fun, which is a rare talent. He inspired our class to perform our best without ever stressing us out. I hope to take more dance classes from Sameer, he is a gem!" -Jane Corpos</p>
+                    <div class="image round fit">
+                      <a><img src="images/students.jpg" alt="" /></a>
+                    </div>
                     <p>"It was an awesome experience being Sameer's student this Fall Dance Off session. Sameer taught every Bhangra move step by step with so much ease that every student was able to pick up the steps so fast. Also, loved the number of practices we would do in a single class. Appreciate Sameer's dedication to meet the class off hours for formations and taking out some time to ensure that we are up to the mark. I would love to be his student again!" -Aparna Chaturvedi</p>
 									</div>
 									<div class="col col2">
-										<h3>Testimonials</h3>
 										<p>"Sameer is not only a great Bhangra dancer but also a great teacher! I took his summer class with Bhangra Empire and the classes were fun. He would break down the steps and help pick up steps in case anyone had any questions or doubts with a positive and helpful attitude. Sameer never got impatient and in fact he was very encouraging and at times funny. I would definitely take another class with him." -Nikita Tayal</p>
                     <div class="image round fit">
 											<a><img src="images/student2.jpg" alt="" /></a>
@@ -131,8 +108,11 @@
   					<section class="wrapper style2">
   						<div id="performances" class="inner">
   							<div class="flex flex-2">
-  								<div class="col col2">
+  								<div class="col">
   									<h3>Performances(Most Recent)</h3>
+  									<div class="image round fit">
+  										<a><img src="images/nakhrasaap.jpg" alt="" /></a>
+  									</div>
                     <h4>Bhangra Empire - Fall 2017 Dance Off</h4>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/JXErUylgFPw" frameborder="0" allowfullscreen></iframe>
                     <h4>Bhangra Empire - "MI GENTE" Choreography </h4>
@@ -156,10 +136,6 @@
                     <h4>Third Place Bruin 2015</h4>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/3MKQt9STJts" frameborder="0" allowfullscreen></iframe>
                     </div>
-  								<div class="col col1 first">
-  									<div class="image round fit">
-  										<a><img src="images/nakhrasaap.jpg" alt="" /></a>
-  									</div>
   								</div>
   							</div>
   						</div>
@@ -176,11 +152,12 @@
 						<li><a class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
 					</ul>
-					<p>&copy; Samer Kausar. All rights reserved.</p>
+					<p>&copy; Sameer Kausar. All rights reserved.</p>
 				</div>
 			</footer>
 
 		<!-- Scripts -->
+      <script src="assets/js/bootstrap.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
