@@ -2083,7 +2083,7 @@
 			align-items: stretch;
 		}
 
-			.flex.flex-2.center, .flex.flex-3.center {
+			.flex.flex-1.center, .flex.flex-2.center, .flex.flex-3.center {
 				-moz-align-items: center;
 				-webkit-align-items: center;
 				-ms-align-items: center;
